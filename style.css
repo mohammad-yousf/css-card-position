@@ -1,0 +1,76 @@
+section {
+  margin-top: 50px;
+}
+body {
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+.top-part {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  gap: 0;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.top-part h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.first-hedding {
+  color: #b0b0b0;
+}
+.top-part p {
+  margin: 0;
+}
+.main-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.supervisor {
+  border-top: 4px solid rgb(101, 204, 203);
+}
+
+.middle-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.team {
+  border-top: 4px solid rgb(237, 83, 85);
+}
+
+.karma {
+  border-top: 4px solid rgb(246, 175, 87);
+}
+
+.calculator {
+  border-top: 4px solid rgb(96, 155, 222);
+}
+
+.card {
+  padding: 10px 25px;
+  position: relative;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  line-height: 15px;
+  box-shadow: -1px 1px 8px gray;
+}
+.card img {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 22px;
+  bottom: 30px;
+}
+.card p {
+  margin: 0;
+}
